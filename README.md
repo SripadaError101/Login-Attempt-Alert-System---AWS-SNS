@@ -13,7 +13,9 @@ Set the following environment variables:
 
 bash
 export AWS_ACCESS_KEY_ID="your-access-key"
+
 export AWS_SECRET_ACCESS_KEY="your-secret-key"
+
 export TOPIC_ARN="arn:aws:sns:us-east-1:123456789012:security-alerts"
 
 The region is set to us-east-1 in the script. Change region_name if your topic is elsewhere.
